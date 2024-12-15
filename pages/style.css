@@ -1,0 +1,201 @@
+.hero-section {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.img-thumbnail {
+    width: 48%;
+    margin: 1%;
+}
+
+.gallery {
+    justify-content: space-between;
+}
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 15px 0;
+}
+
+.navbar {
+    background-color: transparent; /* Ensures Bootstrap doesn't override this */
+    box-shadow: none;
+}
+
+.nav-link {
+    color: white !important; /* Makes the text white */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important; /* Adds a clear hover effect */
+    border-bottom: 2px solid #ffd700;
+}
+.navbar-inner {
+    background:transparent;
+}
+
+.hero-section {
+    background-image: url('../Images/ceylon_golden_beach_4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.destinations .card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.experiences img,
+.about-us img {
+    border-radius: 8px;
+}
+
+.blockquote {
+    font-size: 1.5rem;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+footer form input,
+footer form button {
+    margin: 5px 0;
+}
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.package-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.package-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.package-image {
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.package-card:hover .package-image {
+    transform: scale(1.1);
+}
+.btn-custom {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+#features {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+.feature-icon {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-section {
+    margin-top: 50px;
+}
+.contact-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info a {
+    color: #007bff;
+}
+
+.gallery-section {
+    padding: 50px 0;
+}
+.gallery-image {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+.modal-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/api/placeholder/1200/600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+.team-member:hover {
+    transform: scale(1.05);
+}
+.team-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.value-item {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: white;
+}
